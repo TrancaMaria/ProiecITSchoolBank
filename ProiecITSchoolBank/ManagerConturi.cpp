@@ -13,6 +13,7 @@ std::string ManagerConturi::CreateIBAN()
 		std::cin >> prenume;
 		//TODO: replace with createIban()
 		iban = "TestIban";
+		//iban=CreateIban();
 
 		ContBancar* cont = new ContBancar(nume, prenume, iban);
 		m_listaConturi.push_back(cont);
