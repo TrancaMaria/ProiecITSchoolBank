@@ -6,6 +6,12 @@
 
 int main()
 {
-    ContBancar test("Tranca", "Maria", "Ro12838137");
-    ContBancar* cont = new ContBancar("Tranca", "Maria", "Ro12838137");
+	std::cout << "Alege una din urmatoarele optiuni:\n";
+	std::cout << "1 -> Numar Conturi\n";
+	std::cout << "2 -> Creare Cont\n";
+	std::cout << "3 -> Modificare Cont\n";
+	std::cout << "4 -> Stergere Cont\n";
+	std::cout << "5 -> Eliberare/Depunere\n";
+	std::cout << "6 -> Deetalii Cont\n";
+
 }
