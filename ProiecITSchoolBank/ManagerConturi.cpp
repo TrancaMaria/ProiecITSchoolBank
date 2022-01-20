@@ -1,5 +1,5 @@
 #include "ManagerConturi.h"
-
+//Adaptati metoda createIban pentru a genera Ibanuri unice
 std::string ManagerConturi::CreateIBAN()
 {
 	return std::string();
